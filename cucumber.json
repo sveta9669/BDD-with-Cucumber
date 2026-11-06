@@ -1,0 +1,9 @@
+{
+    "default": {
+        "paths": ["features/**/*.feature"],
+        "require": ["tests/step_definitions/**/*.js"],
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        }
+    }
+}
